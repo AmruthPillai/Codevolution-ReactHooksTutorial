@@ -1,10 +1,10 @@
 import React from 'react';
-import ComponentA from './components/Context/ComponentA';
+import MultipleReducer from './components/Reducer/MultipleReducer';
 
 function App() {
   return (
     <div className="App">
-      <ComponentA />
+      <MultipleReducer />
     </div>
   );
 }
