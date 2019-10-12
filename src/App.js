@@ -1,10 +1,10 @@
 import React from 'react';
-import MultipleReducer from './components/Reducer/MultipleReducer';
+import GlobalStateManagement from './components/GlobalState/GlobalStateManagement';
 
 function App() {
   return (
     <div className="App">
-      <MultipleReducer />
+      <GlobalStateManagement />
     </div>
   );
 }
