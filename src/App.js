@@ -1,10 +1,10 @@
 import React from 'react';
-import DataFetching from './components/DataFetching';
+import ComponentA from './components/Context/ComponentA';
 
 function App() {
   return (
     <div className="App">
-      <DataFetching />
+      <ComponentA />
     </div>
   );
 }
