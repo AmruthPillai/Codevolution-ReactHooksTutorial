@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css'
-import HookTimer from './components/Timer/HookTimer';
+import UserForm from './components/useInput-CustomHook/UserForm';
 
 function App() {
   return (
     <div className="App">
-      <HookTimer />
+      <UserForm />
     </div>
   );
 }
