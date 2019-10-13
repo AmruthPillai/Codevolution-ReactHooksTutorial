@@ -1,10 +1,10 @@
 import React from 'react';
-import GlobalStateManagement from './components/GlobalState/GlobalStateManagement';
+import DataFetchingTwo from './components/Reducer/DataFetchingTwo';
 
 function App() {
   return (
     <div className="App">
-      <GlobalStateManagement />
+      <DataFetchingTwo />
     </div>
   );
 }
