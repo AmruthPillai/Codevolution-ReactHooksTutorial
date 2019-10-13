@@ -1,10 +1,11 @@
 import React from 'react';
-import ParentComponent from './components/Callback/ParentComponent';
+import './App.css'
+import HookTimer from './components/Timer/HookTimer';
 
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <HookTimer />
     </div>
   );
 }
