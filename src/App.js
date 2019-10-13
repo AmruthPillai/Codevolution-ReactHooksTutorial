@@ -1,10 +1,10 @@
 import React from 'react';
-import DataFetchingTwo from './components/Reducer/DataFetchingTwo';
+import ParentComponent from './components/Callback/ParentComponent';
 
 function App() {
   return (
     <div className="App">
-      <DataFetchingTwo />
+      <ParentComponent />
     </div>
   );
 }
